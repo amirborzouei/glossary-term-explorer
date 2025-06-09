@@ -1,6 +1,7 @@
 Bilingual Environmental Glossary App built with Streamlit. Easily explore English and German environmental terms and definitions.
 
 👤 Author
+
 Amir R. Borzoueinia
 📧 Linkedin: www.linkedin.com/in/amirborzoueinia
 🎓 MSc Environmental & Resource Management @ BTU Cottbus
