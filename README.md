@@ -3,12 +3,12 @@ Bilingual Environmental Glossary App built with Streamlit. Easily explore Englis
 👤 Author
 
 Amir R. Borzoueinia
-📧 Linkedin: www.linkedin.com/in/amirborzoueinia
+📧 Linkedin: (www.linkedin.com/in/amirborzoueinia)
 🎓 MSc Environmental & Resource Management @ BTU Cottbus
 
 🚀 Live Demo
 
-Try the app here: [https://yourusername.streamlit.app](https://yourusername.streamlit.app)  
+Try the app here: (https://bilingualenvironmentalglossary.streamlit.app)
 
 📂 Features
 
