@@ -14,13 +14,13 @@ language = st.radio("Choose input language / Sprache wählen:", ["English", "Deu
 # Filter terms by language
 if language == "English":
     terms = df['En_Term'].dropna().unique()
-    en_terms = ["-- Type / Select the Term --"] + sorted(df['En_Term'].unique())
+    en_terms = [" Type / Select the Term: "] + sorted(df['En_Term'].unique())
     selected_en_term = st.selectbox("English Term", en_terms, index=0)
     selected_term = selected_en_term
     match = df[df['En_Term'] == selected_term]
 else:
     terms = df['DE_Term'].dropna().unique()
-    de_terms = ["-- Tippen / Wählen Sie den Begriff --"] + sorted(df['DE_Term'].unique())
+    de_terms = [" Tippen / Wählen Sie den Begriff: "] + sorted(df['DE_Term'].unique())
     selected_de_term = st.selectbox("Deutscher Begriff", de_terms, index=0)
     selected_term = selected_de_term
     match = df[df['DE_Term'] == selected_term]
