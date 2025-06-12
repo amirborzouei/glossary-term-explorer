@@ -21,6 +21,14 @@ else:
     selected_term = st.selectbox("Begriff auswählen:", sorted(terms))
     match = df[df['DE_Term'] == selected_term]
 
+# Add placeholder to the top of the list
+en_terms = ["-- Type / Select the Term in English --"] + sorted(df['En_Term'].unique())
+de_terms = ["-- Tippen oder wählen Sie den Begriff auf Deutsch --"] + sorted(df['DE_Term'].unique())
+
+# Dropdowns with custom placeholder
+selected_en_term = st.selectbox("English Term", en_terms, index=0)
+selected_de_term = st.selectbox("Deutscher Begriff", de_terms, index=0)
+
 # Show definitions and translations
 if not match.empty:
     row = match.iloc[0]
